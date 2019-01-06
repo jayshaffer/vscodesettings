@@ -1,0 +1,8 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "python.jediEnabled": false,
+    "editor.minimap.enabled": false,
+}

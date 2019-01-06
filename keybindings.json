@@ -1,0 +1,140 @@
+// Place your key bindings in this file to overwrite the defaultsauto[]
+[
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "cmd+i",
+        "command": "workbench.action.splitEditorUp"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "cmd+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-workbench.action.terminal.scrollToNextCommand",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-search.focus.nextInputBox",
+        "when": "inputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-problems.action.focusProblemsFromFilter",
+        "when": "problemsFilterFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+left",
+        "command": "-extension.vim_cmd+left",
+        "when": "editorTextFocus && vim.active && vim.use<D-left> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "cmd+left",
+        "command": "-cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+left",
+        "command": "-workbench.action.terminal.moveToLineStart",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "-workbench.action.terminal.moveToLineEnd",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "-cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "-extension.vim_cmd+right",
+        "when": "editorTextFocus && vim.active && vim.use<D-right> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-workbench.action.terminal.scrollToPreviousCommand",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-list.collapse",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-search.action.focusSearchFromResults",
+        "when": "firstMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-search.focus.previousInputBox",
+        "when": "inputBoxFocus && searchViewletVisible && !searchInputBoxFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    }
+]
