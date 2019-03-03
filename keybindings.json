@@ -1,11 +1,11 @@
 // Place your key bindings in this file to overwrite the defaultsauto[]
 [
     {
-        "key": "cmd+k",
+        "key": "cmd+j",
         "command": "workbench.action.splitEditorDown"
     },
     {
-        "key": "cmd+j",
+        "key": "cmd+h",
         "command": "workbench.action.splitEditorLeft"
     },
     {
@@ -13,7 +13,7 @@
         "command": "workbench.action.splitEditorRight"
     },
     {
-        "key": "cmd+i",
+        "key": "cmd+k",
         "command": "workbench.action.splitEditorUp"
     },
     {
@@ -136,5 +136,13 @@
         "key": "cmd+i",
         "command": "-expandLineSelection",
         "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.keepEditor"
+    },
+    {
+        "key": "cmd+k enter",
+        "command": "-workbench.action.keepEditor"
     }
 ]
